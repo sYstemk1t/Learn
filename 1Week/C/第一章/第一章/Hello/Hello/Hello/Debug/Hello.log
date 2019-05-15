@@ -1,0 +1,12 @@
+﻿生成启动时间为 2019/5/13 2:21:09。
+     1>项目“D:\Code\1 Week\C\第一章\Hello\Hello\Hello\Hello.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\code\1 week\c\第一章\hello\hello\hello\main.c(13): error C2001: 常量中有换行符
+     1>d:\code\1 week\c\第一章\hello\hello\hello\main.c(14): error C2146: 语法错误: 缺少“)”(在标识符“getchar”的前面)
+     1>已完成生成项目“D:\Code\1 Week\C\第一章\Hello\Hello\Hello\Hello.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.21
