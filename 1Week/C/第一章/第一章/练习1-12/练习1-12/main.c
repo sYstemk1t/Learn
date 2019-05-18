@@ -7,7 +7,7 @@ int main()
     {
         if (c == '\n')
         {
-            putchar(c);
+            printf("%c", c);
             printf("\n");
         }
     }

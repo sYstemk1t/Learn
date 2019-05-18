@@ -7,10 +7,10 @@ int getline(char line[], int maxline);
 // print lines longer than LONGLINE
 main()
 {
-    int len;
+    int len = 0;
     char line[MAXLINE];
 
-    while ((len - getline(line, MAXLINE)) > 0)
+    while ((len = getline(line, MAXLINE)) > 0)
         if (len > LONGLINE)
             printf("%S", line);
     return 0;
