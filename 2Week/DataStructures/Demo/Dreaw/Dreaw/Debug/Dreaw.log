@@ -1,0 +1,18 @@
+﻿生成启动时间为 2019/6/6 11:11:05。
+     1>项目“D:\Learn\2Week\DataStructures\Demo\Dreaw\Dreaw\Dreaw.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\data structures & algorithms\DataStructures\Array\C\BasicArray.c"
+         BasicArray.c
+     1>d:\learn\2week\datastructures\demo\data structures & algorithms\datastructures\array\c\basicarray.c(55): warning C4022: “free”: 指针与实参 1 不匹配
+     1>d:\learn\2week\datastructures\demo\data structures & algorithms\datastructures\array\c\basicarray.c(207): warning C4047: “函数”:“Array *”与“int”的间接级别不同
+     1>d:\learn\2week\datastructures\demo\data structures & algorithms\datastructures\array\c\basicarray.c(207): warning C4024: “basic_array_destroy”: 形参和实参 1 的类型不同
+     1>d:\learn\2week\datastructures\demo\data structures & algorithms\datastructures\array\c\basicarray.c(65): warning C4715: “basic_array_size”: 不是所有的控件路径都返回值
+     1>d:\learn\2week\datastructures\demo\data structures & algorithms\datastructures\array\c\basicarray.c(71): warning C4715: “basic_array_capacity”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learn\2Week\DataStructures\Demo\Dreaw\Debug\Dreaw.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Learn\2Week\DataStructures\Demo\Dreaw\Debug\Dreaw.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learn\2Week\DataStructures\Demo\Dreaw\Debug\Dreaw.lib" /MACHINE:X86 Debug\BasicArray.obj
+         Dreaw.vcxproj -> D:\Learn\2Week\DataStructures\Demo\Dreaw\Debug\Dreaw.exe
+     1>已完成生成项目“D:\Learn\2Week\DataStructures\Demo\Dreaw\Dreaw\Dreaw.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.71
