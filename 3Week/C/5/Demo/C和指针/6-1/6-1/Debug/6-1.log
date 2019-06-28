@@ -1,0 +1,19 @@
+﻿生成启动时间为 2019/6/28 12:38:12。
+     1>项目“D:\Learn\3Week\C\5\Demo\C和指针\6-1\6-1\6-1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(4): warning C4090: “初始化”: 不同的“const”限定符
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(8): warning C4047: “==”:“int”与“const char *”的间接级别不同
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(10): warning C4047: “return”:“char *”与“char”的间接级别不同
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(21): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(23): warning C4047: “=”:“char”与“char *”的间接级别不同
+     1>d:\learn\3week\c\5\demo\c和指针\6-1\6-1\main.c(25): warning C4013: “system”未定义；假设外部返回 int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Learn\3Week\C\5\Demo\C和指针\6-1\Debug\6-1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Learn\3Week\C\5\Demo\C和指针\6-1\Debug\6-1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Learn\3Week\C\5\Demo\C和指针\6-1\Debug\6-1.lib" /MACHINE:X86 Debug\main.obj
+         6-1.vcxproj -> D:\Learn\3Week\C\5\Demo\C和指针\6-1\Debug\6-1.exe
+     1>已完成生成项目“D:\Learn\3Week\C\5\Demo\C和指针\6-1\6-1\6-1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.41

@@ -1,0 +1,13 @@
+﻿生成启动时间为 2019/6/28 12:55:10。
+     1>项目“D:\Learn\3Week\C\5\Demo\C和指针\6-2\6-2\6-2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\learn\3week\c\5\demo\c和指针\6-2\6-2\main.c(10): error C2059: 语法错误:“类型”
+     1>d:\learn\3week\c\5\demo\c和指针\6-2\6-2\main.c(38): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+     1>d:\learn\3week\c\5\demo\c和指针\6-2\6-2\main.c(39): warning C4013: “del_substr”未定义；假设外部返回 int
+     1>已完成生成项目“D:\Learn\3Week\C\5\Demo\C和指针\6-2\6-2\6-2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.17
