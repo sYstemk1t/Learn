@@ -48,7 +48,7 @@ int main3()
 	return 0;
 }
 
-int strlen(char *s)
+int strlen_alen(char *s)
 {
 	int n;
 	for (n = 0; *s != '\0'; s++)	//s++代表指向字符串的下一个
@@ -358,7 +358,7 @@ int main16()
 	}
 }
 
-int main()
+int main17()
 {
 	float values[5];
 	float *p;
@@ -373,4 +373,60 @@ int main()
 		printf("%f\r\n", values[i]);
 	}
 
+}
+
+int main18()
+{
+	int a[10] = {1,2,3,4,5,6,7,8,9,10};
+	int b[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	int *c;
+	c = &a[0];
+	printf("%d\r\n", *c);
+	*c = *(b + 3);	//这句的意思是：取b这个数据，下标3的内容
+	printf("%d\r\n", *c);
+
+
+}
+
+int strcpy_acpy(char *buf, char *str)
+{
+	while ((*buf++ = *str++) != '\0' )
+	{
+		if (*buf == '\0')
+		{
+			return 0;
+		}
+	}
+}
+int main19()
+{
+	char a[10] = "hello";
+	char b[5] = "world";
+	strcpy_acpy(a, b);
+	printf("%s", a);
+}
+
+int main20()
+{
+	int array[3][4] = { { 1,2,3 }, { 4,5,6 }, {7,8,9} };
+	
+	system("pause");
+}
+
+
+int swap_p(const int *a, const int *b)
+{
+	int *c;
+	c = a;
+	a = b;
+	b = c;
+	printf("%d\r\n", a);
+	printf("%d\r\n", b);
+	return a, b;
+}
+int main()
+{
+	const int a = 10;
+	const int b = 20;
+	swap_p(a, b);
 }
