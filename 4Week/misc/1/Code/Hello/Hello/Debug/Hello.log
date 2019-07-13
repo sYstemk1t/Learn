@@ -1,13 +1,14 @@
-﻿生成启动时间为 2019/7/9 1:22:13。
+﻿生成启动时间为 2019/7/12 6:50:13。
      1>项目“F:\Learn\4Week\misc\1\Code\Hello\Hello\Hello.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
          main.c
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Learn\4Week\misc\1\Code\Hello\Debug\Hello.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Learn\4Week\misc\1\Code\Hello\Debug\Hello.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Learn\4Week\misc\1\Code\Hello\Debug\Hello.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 没有找到 F:\Learn\4Week\misc\1\Code\Hello\Debug\Hello.exe 或上一个增量链接没有生成它；正在执行完全链接
          Hello.vcxproj -> F:\Learn\4Week\misc\1\Code\Hello\Debug\Hello.exe
      1>已完成生成项目“F:\Learn\4Week\misc\1\Code\Hello\Hello\Hello.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.13
+已用时间 00:00:00.45
