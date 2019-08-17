@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019/8/16 10:01:18。
+     1>项目“F:\Learn\6Week\Windows SDK\6\Demo\Demo\Demo\Demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>f:\learn\6week\windows sdk\6\demo\demo\demo\main.c(5): warning C4013: “system”未定义；假设外部返回 int
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Learn\6Week\Windows SDK\6\Demo\Demo\Debug\Demo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Learn\6Week\Windows SDK\6\Demo\Demo\Debug\Demo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Learn\6Week\Windows SDK\6\Demo\Demo\Debug\Demo.lib" /MACHINE:X86 Debug\main.obj
+         Demo.vcxproj -> F:\Learn\6Week\Windows SDK\6\Demo\Demo\Debug\Demo.exe
+     1>已完成生成项目“F:\Learn\6Week\Windows SDK\6\Demo\Demo\Demo\Demo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.40

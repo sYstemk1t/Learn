@@ -1,0 +1,11 @@
+﻿生成启动时间为 2019/8/15 18:26:01。
+     1>项目“F:\Learn\6Week\Windows SDK\6\Demo\System4.c\System4.c\System4.c.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>f:\learn\6week\windows sdk\6\demo\system4.c\system4.c\main.c(2): fatal error C1083: 无法打开包括文件: “sysmets.h”: No such file or directory
+     1>已完成生成项目“F:\Learn\6Week\Windows SDK\6\Demo\System4.c\System4.c\System4.c.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.49
