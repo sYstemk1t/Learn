@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/8/27 6:39:29。
+     1>项目“F:\Learn\7Week\Windows核心编程\4\Code\DumpEnvStrings\DumpEnvStrings\DumpEnvStrings.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(31): warning C4013: “_tcschr”未定义；假设外部返回 int
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(31): warning C4047: “=”:“PCTSTR”与“int”的间接级别不同
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(40): warning C4013: “StringCbCopyN”未定义；假设外部返回 int
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(47): warning C4013: “StringCchCopyN”未定义；假设外部返回 int
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(47): warning C4013: “_tcslen”未定义；假设外部返回 int
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(49): warning C4013: “_tprintf”未定义；假设外部返回 int
+     1>f:\learn\7week\windows核心编程\4\code\dumpenvstrings\dumpenvstrings\main.c(51): error C2065: “STRSAFE_E_INSUFFICIENT_BUFFER”: 未声明的标识符
+     1>已完成生成项目“F:\Learn\7Week\Windows核心编程\4\Code\DumpEnvStrings\DumpEnvStrings\DumpEnvStrings.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.31
